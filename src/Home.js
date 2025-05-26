@@ -7,7 +7,7 @@ function Home() {
     // State to track scroll position
     const [isVisible, setIsVisible] = useState(false);
     // State to track hover over PRODUCTS link and dropdown
-    const [isProductHovered, setIsProductHovered] = useState(false);
+    const [isProductHovered, setIsProductHover] = useState(false);
 
     // Function to handle scroll event
     const handleScroll = () => {
@@ -49,9 +49,9 @@ function Home() {
                                 <li className="list"><Link to="/about" className="anchor2 active">ABOUT US</Link></li>
                                 <li
                                     className="list"
-                                    onMouseEnter={() => setIsProductHovered(true)}
-                                    onMouseLeave={() => setIsProductHovered(false)}
-                                    onClick={() => setIsProductHovered(!isProductHovered)}
+                                    onMouseEnter={() => setIsProductHover(true)}
+                                    onMouseLeave={() => setIsProductHover(false)}
+                                    onClick={() => setIsProductHover(!isProductHovered)}
                                 >
                                     <Link to="/product" className="anchor3 active">PRODUCTS</Link>
                                     {isProductHovered && (
