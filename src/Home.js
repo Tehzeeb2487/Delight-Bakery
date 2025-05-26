@@ -50,7 +50,7 @@ function Home() {
                                 <li
                                     className="list"
                                     onMouseEnter={() => setIsProductHovered(true)}
-                                    // onMouseLeave={() => setIsProductHovered(false)}
+                                    onMouseLeave={() => setIsProductHovered(false)}
                                     onClick={() => setIsProductHovered(!isProductHovered)}
                                 >
                                     <Link to="/product" className="anchor3 active">PRODUCTS</Link>
