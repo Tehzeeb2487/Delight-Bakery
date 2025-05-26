@@ -76,8 +76,8 @@ a {
 	background-color: #ffffff00;
 	z-index: 100;
 	position: absolute;
-    left: 20%;
-    top: 80%;
+    left: 15%;
+    top: 100%;
 	border-radius: 10px;
 }
 .dropdown-menu {
