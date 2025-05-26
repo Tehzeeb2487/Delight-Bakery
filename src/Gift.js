@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from './Images/what.jpg';
 import gift1 from './Images/gift1.webp';
 import gift2 from './Images/gift2.webp';
@@ -37,49 +38,49 @@ function Gift(){
 				    <img src={gift1} />
     				<h3 className="my-2">Almond Rocks 250g</h3>
 	    			<h6> Rs 650</h6>
-		    		<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+		    		<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
 			    </div>
     			<div className="shadow"> 
 	    			<img src={gift2} />
 		    		<h3 className="my-2">Premium Hamper</h3>
 			    	<h6> Rs 1,700</h6>
-				    <button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+				    <button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
     			</div>
 	    		<div className="shadow">
 		    		<img src={gift3} />
 			    	<h3 className="my-2">Eggless Indulgence Hamper</h3>
 				    <h6>Rs 3,200</h6>
-				    <button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+				    <button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
     			</div>
 	    		<div className="shadow">
 		    		<img src={gift4} />
 			    	<h3 className="my-2">Cookies Collection Gift Set (3)</h3>
 				    <h6>Rs 675</h6>
-    				<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+    				<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
 	    		</div>
 		    	<div className="shadow">
 			    	<img src={gift5} />
 				    <h3 className="my-2">Gift Bag (Premium)</h3>
 				    <h6> Rs 1,250</h6>
-    				<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+    				<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
 	    		</div>
 		    	<div className="shadow"> 
 			    	<img src={gift6} />
 				    <h3 className="my-2">Almond Rocks 500g</h3>
     				<h6> Rs 935</h6>
-	    			<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+	    			<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
 		    	</div>
 			    <div className="shadow">
 				    <img src={gift7} />
     				<h3 className="my-2">Cookies Collection Gift Set (4)</h3>
 	    			<h6>Rs 2,300</h6>
-		    		<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+		    		<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
     			</div>
 	    		<div className="shadow">
 		    		<img src={gift8} />
 			    	<h3 className="my-2">Eggless Luxury Hamper</h3>
     				<h6>Rs 800</h6>
-	    			<button className="rounded-pill car-but"><a href="/order" class="out">Order now</a></button>
+	    			<button className="rounded-pill car-but"><Link to="/order" class="out">Order now</Link></button>
 		    	</div>
 		    </article>
             </div>
@@ -89,7 +90,7 @@ function Gift(){
         <section class="want-order" id="Order">
 			<h1>Like Our Products ?</h1>
 			<p>Treat yourself to your favourite Delight products or surprise your loved ones with an edible gift.</p>
-			<button class="card-btn rounded-pill my-2"><a href="/order">Order Online</a></button>
+			<button class="card-btn rounded-pill my-2"><Link to="/order">Order Online</Link></button>
 		</section>
 
 
@@ -118,10 +119,10 @@ function Gift(){
 				<p><i class="fa fa-phone px-2" ></i> +91 8182-881881</p>
 				<p><i class="fa fa-envelope px-2"></i> contact@bakerydelight.in</p>
 				<div>
-					<a class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></a>
-   					<a class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></a>
-	    			<a class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></a>
-    				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></a>
+					<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></Link>
+   					<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></Link>
+	    			<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></Link>
+    				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></Link>
 				</div>
 			</div>
 			<div>

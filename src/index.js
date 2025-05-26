@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './Home';
 import Bakery from './Bakery.js';
 import About from './About.js';
@@ -17,7 +17,7 @@ import Tea from './Tea-Time.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
       <Routes>
         <Route path='/' element={<Home/>}>
           <Route index element={<Bakery />} />
@@ -36,7 +36,7 @@ root.render(
           <Route path='tea' element={<Tea />} />
         </Route>
       </Routes>
-  </BrowserRouter>
+  </HashRouter>
   
 );
 

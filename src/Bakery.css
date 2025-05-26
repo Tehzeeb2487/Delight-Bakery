@@ -70,16 +70,25 @@ a {
 }
 
 /* Dropdown menu styles */
+.dropdown-menu-head {
+	width: 550px;
+	height: 240px;
+	background-color: #ffffff00;
+	z-index: 100;
+	position: absolute;
+    left: 60%;
+    top: 65%;
+	border-radius: 10px;
+}
 .dropdown-menu {
     width: 550px;
-    position: absolute;
     background-color: white;
-    border: 1px solid #ddd;
-    display: none;
-    z-index: 1000;
-    left: 8%;
-    top: 70%;
-    margin: 10px;
+    border: none;
+    display: block;
+    z-index: 100;
+    margin-top: 30px;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 4px 8px 0 #35394433;
 }
 
 .dropdown-menu div {

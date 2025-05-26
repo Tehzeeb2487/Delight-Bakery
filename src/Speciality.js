@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from './Images/what.jpg';
 import home7 from './Images/Bakery32.jpg';
 import home8 from './Images/Bakery33.jpg';
@@ -38,107 +39,107 @@ function Speciality(){
 			</center>
 			<div class="cards p-0 mt-5">
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home15} alt="Cake" class="d-block" />
 					<h1 class="special-one p-2">After Nine Cake</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home16} alt="Pastry" class="d-block" />
 					<h1 class="special-one p-2">Carrot Cake</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home17} alt="BROWNIES" class="d-block" />
 					<h1 class="special-one p-2">Chocolate Nougatine Cake</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home18} alt="Bread" class="d-block" />
 					<h1 class="special-one p-2">Cappuccino Cake</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 		</div>
 			<div class="cards p-0 mt-4">
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home7} alt="Cake" class="d-block" />
 					<h1 class="special-one p-2">Fresh Cream Pineapple Cake</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/browny'>
+			<Link to='/browny'>
 				<div class="card_image">
 					<img src={home8} alt="Pastry" class="d-block" />
 					<h1 class="special-one p-2">Overload Brownie</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/tea'>
+			<Link to='/tea'>
 				<div class="card_image">
 					<img src={home9} alt="BROWNIES" class="d-block" />
 					<h1 class="special-one p-2">Danse Loaf</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/sandwich'>
+			<Link to='/sandwich'>
 				<div class="card_image">
 					<img src={home10} alt="Bread" class="d-block" />
 					<h1 class="special-one p-2">Baked Wada Pao (1 Pc)</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 		</div>
 		<div class="cards p-0 mt-4">
 			<div class="item">
-			<a href='/cupcake'>
+			<Link to='/cupcake'>
 				<div class="card_image">
 					<img src={home11} alt="Cake" class="d-block" />
 					<h1 class="special-one p-2">Blueberry Cheesecake Cup</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/pastry'>
+			<Link to='/pastry'>
 				<div class="card_image">
 					<img src={home12} alt="Pastry" class="d-block" />
 					<h1 class="special-one p-2">Chocolate Pastry</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/cooky'>
+			<Link to='/cooky'>
 				<div class="card_image">
 					<img src={home13} alt="BROWNIES" class="d-block" />
 					<h1 class="special-one p-2">Chocolate Chip Cookies</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 			<div class="item">
-			<a href='/cooky'>
+			<Link to='/cooky'>
 				<div class="card_image">
 					<img src={home14} alt="Bread" class="d-block" />
 					<h1 class="special-one p-2">Butter Palmiers</h1>
 				</div>
-			</a>
+			</Link>
 			</div>
 		</div>
-		<center><button class="card-btn rounded-pill bttn my-5"><a href='/product'>View more</a></button></center>
+		<center><button class="card-btn rounded-pill bttn my-5"><Link to='/product'>View more</Link></button></center>
 		</div>
 	</section>
 
@@ -160,8 +161,8 @@ function Speciality(){
 		<h1>Pre Order Now!</h1>
 		<p>To pre-order, call us at +91 8182881881 or write to us at contact@theobroma.in</p>
 		<div>
-			<button class="card-btn rounded-pill my-2 bttn me-3"><a href="/order">Call Now</a></button>
-			<button class="card-btn rounded-pill my-2 bttn"><a href="/order">Email Us</a></button>
+			<button class="card-btn rounded-pill my-2 bttn me-3"><Link to="/order">Call Now</Link></button>
+			<button class="card-btn rounded-pill my-2 bttn"><Link to="/order">Email Us</Link></button>
 		</div>
 	</section>
 
@@ -191,10 +192,10 @@ function Speciality(){
 			<p><i class="fa fa-phone px-2" ></i> +91 8182-881881</p>
 			<p><i class="fa fa-envelope px-2"></i> contact@bakerydelight.in</p>
 			<div>
-				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></a>
-   				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></a>
-	    		<a class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></a>
-    			<a class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></a>
+				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></Link>
+   				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></Link>
+	    		<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></Link>
+    			<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></Link>
 			</div>
 		</div>
 		<div>

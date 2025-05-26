@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from 'react-router-dom';
 import './About.css';
 import './Bakery.css';
 import logo from './Images/what.jpg';
@@ -246,10 +247,10 @@ function Order(){
 			<p><i class="fa fa-phone px-2" ></i> +91 8182-881881</p>
 			<p><i class="fa fa-envelope px-2"></i> contact@bakerydelight.in</p>
 			<div>
-				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></a>
-   				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></a>
-	    		<a class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></a>
-    			<a class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></a>
+				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></Link>
+   				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></Link>
+	    		<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></Link>
+    			<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></Link>
 			</div>
 		</div>
 		<div>

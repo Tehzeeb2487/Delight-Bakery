@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 import './Bakery.css';
 import about1 from './Images/Bakery3.jpg';
@@ -83,7 +84,7 @@ function About(){
 		   <section class="want-order" id="Order">
 			<h1>Like Our Product ?</h1>
 			<p>Treat yourself to your favourite Delight products or surprise your loved ones with an edible gift.</p>
-			<button class="card-btn rounded-pill my-2"><a href='/order'>Order Online</a></button>
+			<button class="card-btn rounded-pill my-2"><Link to='/order'>Order Online</Link></button>
 		  </section>
 
 	<footer id="footer">
@@ -111,10 +112,10 @@ function About(){
 			<p><i class="fa fa-phone px-2" ></i> +91 8182-881881</p>
 			<p><i class="fa fa-envelope px-2"></i> contact@bakerydelight.in</p>
 			<div>
-				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></a>
-   				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></a>
-	    		<a class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></a>
-    			<a class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></a>
+				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></Link>
+   				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></Link>
+	    		<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></Link>
+    			<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></Link>
 			</div>
 		</div>
 		<div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Bakery.css';
 import home from './Images/home-first.png';
 import home1 from './Images/home-second.png';
@@ -73,7 +74,7 @@ const Bakery = () =>{
 			</div>
 		</div>
 		<div class="about-btn">
-			<center><button class="card-btn rounded-pill bttn"><a href='/about'>View More</a></button></center>
+			<center><button class="card-btn rounded-pill bttn"><Link to='/about'>View More</Link></button></center>
 		</div>
 	
 						
@@ -84,39 +85,39 @@ const Bakery = () =>{
 		<p>Fresh Bakery with the Finest Ingredients</p>
 		<div class="cards">
 			<div class="item">
-				<a href='/cakes'>
+				<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home3} alt="Cake" class="d-block" />
 					<h1>Cakes</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-				<a href='/pastry'>
+				<Link to='/pastry'>
 				<div class="card_image">
 					<img src={home4} alt="Pastry" class="d-block" />
 					<h1>Pastries</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/browny'>
+			<Link to='/browny'>
 				<div class="card_image">
 					<img src={home5} alt="BROWNIES" class="d-block" />
 					<h1>Brownies</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/bread'>
+			<Link to='/bread'>
 				<div class="card_image">
 					<img src={home6} alt="Bread" class="d-block" />
 					<h1>Breads</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 		</div>
-		<button class="card-btn rounded-pill"><a href='/product'>View more</a></button>
+		<button class="card-btn rounded-pill"><Link to='/product'>View more</Link></button>
 	</div>
 
 	<section>
@@ -125,25 +126,25 @@ const Bakery = () =>{
            <h1>Packed with love &
            <br /> all your favourites!</h1>
             <p  class="pt-3">Now gift your loved ones our special hampers curated with<br/>our signature products.</p>
-            <button class="card-btn rounded-pill bttn my-2"><a href="/gift">Know More</a></button>
+            <button class="card-btn rounded-pill bttn my-2"><Link to="/gift">Know More</Link></button>
            
         </div>
-        <a href='/gift'>
+        <Link to='/gift'>
 			<img src={Gift} width="600px" height="500px" />
-		</a>
+		</Link>
     </div>        
    </section>
 
    <section >
     
     <div class="container1" >   
-		<a href='/tea'>
+		<Link to='/tea'>
 			<img src={Tea} width="600px" height="500px" />  
-		</a>  
+		</Link>  
     <div class="text">
       <h1>Tea-Time Delights</h1>
       <p class="mt-3"> Pick the perfect companion for your tea (or coffee!) from a <br/>range of tea cakes & more. </p>
-      <button class="card-btn rounded-pill bttn my-2"><a href="/tea">Know More</a></button>
+      <button class="card-btn rounded-pill bttn my-2"><Link to="/tea">Know More</Link></button>
     </div>  
     </div>
    </section>
@@ -204,79 +205,79 @@ const Bakery = () =>{
 		</div>
 		<div class="cards">
 			<div class="item">
-			<a href='/cakes'>
+			<Link to='/cakes'>
 				<div class="card_image">
 					<img src={home7} alt="Cake" class="d-block" />
 					<h1 class="special-one">Fresh Cream Pineapple Cake</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/browny'>
+			<Link to='/browny'>
 				<div class="card_image">
 					<img src={home8} alt="Pastry" class="d-block" />
 					<h1 class="special-one">Overload Brownie</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/tea'>
+			<Link to='/tea'>
 				<div class="card_image">
 					<img src={home9} alt="BROWNIES" class="d-block" />
 					<h1 class="special-one">Danse Loaf</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/sandwich'>
+			<Link to='/sandwich'>
 				<div class="card_image">
 					<img src={home10} alt="Bread" class="d-block" />
 					<h1 class="special-one">Baked Wada Pao (1 Pc)</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 		</div>
 		<div class="cards mt-4">
 			<div class="item">
-			<a href='/cupcake'>
+			<Link to='/cupcake'>
 				<div class="card_image">
 					<img src={home11} alt="Cake" class="d-block" />
 					<h1 class="special-one">Blueberry Cheesecake Cup</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/pastry'>
+			<Link to='/pastry'>
 				<div class="card_image">
 					<img src={home12} alt="Pastry" class="d-block" />
 					<h1 class="special-one">Chocolate Pastry</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/cooky'>
+			<Link to='/cooky'>
 				<div class="card_image">
 					<img src={home13} alt="BROWNIES" class="d-block" />
 					<h1 class="special-one">Chocolate Chip Cookies</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 			<div class="item">
-			<a href='/cooky'>
+			<Link to='/cooky'>
 				<div class="card_image">
 					<img src={home14} alt="Bread" class="d-block" />
 					<h1 class="special-one">Butter Palmiers</h1>
 				</div>
-				</a>
+				</Link>
 			</div>
 		</div>
-		<center><button class="card-btn rounded-pill bttn my-5"><a href='/speciality'>View more</a></button></center>
+		<center><button class="card-btn rounded-pill bttn my-5"><Link to='/speciality'>View more</Link></button></center>
 	</section>
 
 	<section class="want-order" id="Order">
 		<h1>Like Our Products ?</h1>
 		<p>Treat yourself to your favourite Delight products or surprise your loved ones with an edible gift.</p>
-		<button class="card-btn rounded-pill my-2"><a href='/order'>Order Online</a></button>
+		<button class="card-btn rounded-pill my-2"><Link to='/order'>Order Online</Link></button>
 	</section>
 
 
@@ -305,10 +306,10 @@ const Bakery = () =>{
 			<p><i class="fa fa-phone px-2" ></i> +91 8182-881881</p>
 			<p><i class="fa fa-envelope px-2"></i> contact@bakerydelight.in</p>
 			<div>
-				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></a>
-   				<a class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></a>
-	    		<a class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></a>
-    			<a class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></a>
+				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-facebook-f m-3" ></i></Link>
+   				<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-square-instagram m-3"></i></Link>
+	    		<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-linkedin-in m-3"></i></Link>
+    			<Link class="info-icon m-1 card-btn"><i class="fa-brands fa-twitter m-3"></i></Link>
 			</div>
 		</div>
 		<div>
