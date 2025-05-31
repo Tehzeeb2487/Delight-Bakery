@@ -47,7 +47,7 @@ function Home() {
                 <nav className="na navbar navbar-expand-md">
                     <div className="container-fluid">
                         <div className="logo">
-                            <img src={logo} alt="logo" width="80px" height="80px" />
+                            <img src={logo} alt="logo" width="90px" height="90px" />
                         </div>
 
                         <button
