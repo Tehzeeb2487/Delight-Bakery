@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Delight-Bakery/static/css/main.76b8700c.css",
-    "main.js": "/Delight-Bakery/static/js/main.69aaddbe.js",
+    "main.css": "/Delight-Bakery/static/css/main.69ec6369.css",
+    "main.js": "/Delight-Bakery/static/js/main.8133c003.js",
     "static/js/453.8aa64e0a.chunk.js": "/Delight-Bakery/static/js/453.8aa64e0a.chunk.js",
     "static/media/Tea-Cakes.gif": "/Delight-Bakery/static/media/Tea-Cakes.31d5d0e0643e55c0b52e.gif",
     "static/media/Bakery3.jpg": "/Delight-Bakery/static/media/Bakery3.2fcce4332c14e15b9912.jpg",
@@ -94,12 +94,12 @@
     "static/media/Gift-background.webp": "/Delight-Bakery/static/media/Gift-background.f78b1435b05cba50cfc8.webp",
     "static/media/pro-background.webp": "/Delight-Bakery/static/media/pro-background.d83d0f7e159c08796414.webp",
     "index.html": "/Delight-Bakery/index.html",
-    "main.76b8700c.css.map": "/Delight-Bakery/static/css/main.76b8700c.css.map",
-    "main.69aaddbe.js.map": "/Delight-Bakery/static/js/main.69aaddbe.js.map",
+    "main.69ec6369.css.map": "/Delight-Bakery/static/css/main.69ec6369.css.map",
+    "main.8133c003.js.map": "/Delight-Bakery/static/js/main.8133c003.js.map",
     "453.8aa64e0a.chunk.js.map": "/Delight-Bakery/static/js/453.8aa64e0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76b8700c.css",
-    "static/js/main.69aaddbe.js"
+    "static/css/main.69ec6369.css",
+    "static/js/main.8133c003.js"
   ]
 }
